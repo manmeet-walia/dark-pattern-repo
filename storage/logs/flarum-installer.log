@@ -1,0 +1,7 @@
+[2024-03-21 05:34:56] Flarum Installer.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "start" is not defined. in C:\xampp\htdocs\flarum\flarum\vendor\symfony\console\Application.php:720
+Stack trace:
+#0 C:\xampp\htdocs\flarum\flarum\vendor\symfony\console\Application.php(259): Symfony\Component\Console\Application->find('start')
+#1 C:\xampp\htdocs\flarum\flarum\vendor\symfony\console\Application.php(171): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\xampp\htdocs\flarum\flarum\vendor\flarum\core\src\Console\Server.php(42): Symfony\Component\Console\Application->run()
+#3 C:\xampp\htdocs\flarum\flarum\flarum(24): Flarum\Console\Server->listen()
+#4 {main}  
