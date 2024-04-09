@@ -451,13 +451,13 @@ class ComposerStaticInitc359105ca81366b8a8ab41a8fdb2a7d6
         ),
         'Psr\\Http\\Server\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-server-middleware/src',
-            1 => __DIR__ . '/..' . '/psr/http-server-handler/src',
+            0 => __DIR__ . '/..' . '/psr/http-server-handler/src',
+            1 => __DIR__ . '/..' . '/psr/http-server-middleware/src',
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -489,9 +489,9 @@ class ComposerStaticInitc359105ca81366b8a8ab41a8fdb2a7d6
         ),
         'Middlewares\\' => 
         array (
-            0 => __DIR__ . '/..' . '/middlewares/request-handler/src',
+            0 => __DIR__ . '/..' . '/middlewares/base-path/src',
             1 => __DIR__ . '/..' . '/middlewares/base-path-router/src',
-            2 => __DIR__ . '/..' . '/middlewares/base-path/src',
+            2 => __DIR__ . '/..' . '/middlewares/request-handler/src',
         ),
         'MatthiasMullie\\PathConverter\\' => 
         array (
@@ -567,8 +567,8 @@ class ComposerStaticInitc359105ca81366b8a8ab41a8fdb2a7d6
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
-            1 => __DIR__ . '/..' . '/illuminate/collections',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
+            1 => __DIR__ . '/..' . '/illuminate/macroable',
             2 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Session\\' => 
